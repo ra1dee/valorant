@@ -1,0 +1,170 @@
+body{
+    background-color: #22222E;
+}
+
+A {
+    color: white;
+   }
+A:visited {
+    color: white;
+   }
+A:active {
+    color: white;
+   }
+
+.page-header {
+    background-color: #393A5A;
+    height: 90px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    float: left;
+}
+.logo img {
+    height: 80px;
+}
+.logo p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+.menu li{
+    display: inline;
+    margin-right: 25px;
+}
+.menu a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.menu a:hover{
+    background-color: #22222E
+}
+
+.video {
+    margin-top: 4px;
+}
+.video_media {
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.val_audio {
+    background-color: #706F8E;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    background-color: #706F8E;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+}
+.name1 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.description {
+    background-color: #163B88;
+    border-radius: 10px;
+    display: flex;
+}
+
+.page-footer {
+    margin-top: 4px;
+    background-color: #393A5A;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mail {
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.copyright {
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 4px;
+}
+
+table {
+    border: solid 3px #393A5A;
+    border-radius: 10px;
+    margin-top: 5px;
+    width: 100%;
+
+}
+caption {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+tr, td, th{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid 2px #393A5A;
+    text-align: center;
+}
+.agents {
+    background-color: #393A5A;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    height: 90px;
+}
+.agents p {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+.agents img{
+    height: 80px;
+}
+
+
+.top-body{
+    background-color: #393A5A;
+}
+
+.maps-nav li{
+    margin-bottom: 50px;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.pic img{
+    width: 80%;
+}
+.pic p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.question{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 10px;
+}
